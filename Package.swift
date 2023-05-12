@@ -38,6 +38,7 @@ let package = Package(
                             .product(name: "FirebaseCrashlytics", package: "firebase-ios-sdk"),
                             .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                             .product(name: "Realm", package: "realm-swift"),
+                            .product(name: "RealmSwift", package: "realm-swift"),
                       //      .product(name: "FSCalendar", package: "FSCalendar"),
                             .product(name: "Lottie", package: "lottie-spm"),
                             .product(name: "AppsFlyerLib", package: "AppsFlyerFramework"),

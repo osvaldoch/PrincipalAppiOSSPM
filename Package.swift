@@ -19,12 +19,9 @@ let package = Package(
                .package(url: "https://github.com/Salesforce-Async-Messaging/Swift-Package-ServiceChat.git", from: "238.0.0"),
                .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "8.0.0"),
                .package(url: "https://github.com/realm/realm-swift.git", from: "10.39.1"),
-               //.package(url: "https://github.com/WenchaoD/FSCalendar.git", from: "2.8.0"),
-               .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.2.0"),
+               .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.2.0"),
                .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git", from: "6.11.0"),
-               //.package(url: "https://github.com/jonkykong/SideMenu.git", from: "6.5.0"),
                .package(url: "https://github.com/evgenyneu/keychain-swift.git", from: "20.0.0"),
-              // .package(url: "https://github.com/hackiftekhar/IQKeyboardManager.git", from: "6.5.11"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -39,12 +36,9 @@ let package = Package(
                             .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                             .product(name: "Realm", package: "realm-swift"),
                             .product(name: "RealmSwift", package: "realm-swift"),
-                      //      .product(name: "FSCalendar", package: "FSCalendar"),
-                            .product(name: "Lottie", package: "lottie-spm"),
+                            .product(name: "Lottie", package: "lottie-ios"),
                             .product(name: "AppsFlyerLib", package: "AppsFlyerFramework"),
-                      //      .product(name: "SideMenu", package: "SideMenu"),
                             .product(name: "KeychainSwift", package: "keychain-swift"),
-                          //  .product(name: "IQKeyboardManagerSwift", package: "IQKeyboardManager"),
                             ]),
         .testTarget(
             name: "PrincipalAppiOSSPMTests",

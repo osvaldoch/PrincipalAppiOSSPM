@@ -19,7 +19,7 @@ let package = Package(
                .package(url: "https://github.com/Salesforce-Async-Messaging/Swift-Package-ServiceChat.git", from: "238.0.0"),
                .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "8.0.0"),
                .package(url: "https://github.com/realm/realm-swift.git", from: "10.39.1"),
-               .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.2.0"),
+               .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.0.1"),
                .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git", from: "6.11.0"),
                .package(url: "https://github.com/evgenyneu/keychain-swift.git", from: "20.0.0"),
     ],
